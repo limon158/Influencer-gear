@@ -38,6 +38,7 @@ main {
   color: var(--white);
   margin: 8px 0;
 }
+
 .arrow-btn {
   font-weight: 700;
   font-size: 16px;
@@ -243,7 +244,133 @@ p .fa-solid {
   text-align: center;
   margin-bottom: 16px;
 }
-.footer a{
-    text-decoration: none;
-    margin-right: 30px;
+.footer a {
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+/* media query for small device  */
+
+@media screen and (max-width: 992px) {
+  main {
+    margin: 0;
+  }
+  header {
+    margin: 0;
+  }
+  .header {
+    display: none;
+  }
+  .small-device {
+    margin: 0 auto;
+    padding: 5px;
+    background-color: var(--footer-bg);
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo h3 {
+    color: #e02c6d;
+    font-size: 20px;
+  }
+  .nav-bar-small {
+    background-color: var(--footer-paragraph-color);
+  }
+  .nav-bar-small ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .nav-bar-small ul li {
+    list-style: none;
+    color: var(--rating-fill);
+  }
+  .banner {
+    background-image: url(images/Circle\ design.svg);
+    background-size: 70%;
+    background-position: top;
+    flex-direction: column-reverse;
+    gap: 33px;
+  }
+  .banner-details {
+    margin: 0;
+    width: 90%;
+    text-align: center;
+  }
+  .banner-title {
+    font-size: 25px;
+  }
+  .banner-description {
+    font-size: 14px;
+  }
+
+  .banner img {
+    margin: 0 33px 0 0;
+    width: 60%;
+    height: auto;
+  }
+  .footer-title {
+    font-size: 16px;
+  }
+  .footer-description {
+    font-size: 10px;
+  }
+  .footer a {
+    margin-right: 20px;
+  }
+  .payment {
+    margin: 5vh 5%;
+    border: 0;
+  }
+  .payment-methods {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2vh 10%;
+  }
+  .payment a img {
+    width: 50px;
+    height: auto;
+  }
+  .items {
+    grid-row-gap: 3vh;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature {
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  .feature img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .feature-details {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .feature-description {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 993px) {
+  .small-device-nav {
+    display: none;
+  }
 }
