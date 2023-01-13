@@ -1,0 +1,53 @@
+
+/* custom variable declared here */
+/* colors  */
+:root{
+    --white: #ffff;
+    --title-color: #3A3A3A;
+    --subtitle-color: rgba(0, 0, 0, 0.87);
+    --paragraph-color: #787885;
+    --rating-fill:  #FB8200;
+    --btn-highlight: #E02C6D;
+    --secondary-btn-highlight: rgba(224, 44, 109, 0.87);
+    --footer-bg: #0A0826;
+    --footer-paragraph-color: #D9DBE1;
+    /* font style  */
+    --poppins: 'Poppins', sans-serif;
+}
+
+/* common styles  */
+*{
+    margin: 0 auto;
+}
+
+body{
+    font-family: var(--poppins);
+}
+
+/* nav-bar styles starts here  */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    border: 1px solid red;
+}
+.logo{
+    font-weight: 700;
+font-size: 24px;
+}
+.menu-items{
+    display: flex;
+    gap: 40px;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* main section styles starts here  */
+
+
+
+/* footer section styles starts here  */
