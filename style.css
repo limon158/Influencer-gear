@@ -14,7 +14,7 @@
   --poppins: "Poppins", sans-serif;
 }
 
-/* common styles  */
+/* common styles  -----------------------------------------------------------------*/
 * {
   margin: 0 auto;
 }
@@ -44,7 +44,7 @@ main {
   font-size: 16px;
   color: var(--btn-highlight);
 }
-/* nav-bar styles starts here  */
+/* nav-bar styles starts here --------------------------------------------------------- */
 
 .nav-bar {
   display: flex;
@@ -75,7 +75,9 @@ main {
   color: var(--title-color);
 }
 
-/* main section styles starts here  */
+/* main section styles starts here --------------------------------------------------- */
+
+/* Banner section styles ------------------------------------------------------------- */
 
 .container {
   margin: 10vh 0;
@@ -112,6 +114,8 @@ main {
   width: 440px;
   height: 414px;
 }
+
+/* Payment section styles --------------------------------------------------- */
 .payment {
   margin: 5vh 5%;
   border-top: 1px solid var(--paragraph-color);
@@ -130,6 +134,8 @@ main {
   color: var(--title-color);
   text-align: center;
 }
+
+/* collection section styles ------------------------------------------------- */
 .collection {
   margin: 0;
   padding: 2%;
@@ -176,6 +182,8 @@ p .fa-solid {
   font-size: 14px;
   color: var(--paragraph-color);
 }
+/* button see more ------------------------------------------------------ */
+
 #see-more-arrow {
   text-align: right;
   margin-right: 5%;
@@ -183,6 +191,8 @@ p .fa-solid {
 #see-more-arrow a {
   color: var(--btn-highlight);
 }
+
+/* feature section styles -------------------------------------------------- */
 .feature {
   display: flex;
   gap: 30px;
@@ -214,7 +224,7 @@ p .fa-solid {
 #join-now-btn {
   border-radius: 0;
 }
-/* footer section styles starts here  */
+/* footer section styles starts here ---------------------------------------------------- */
 .footer {
   display: flex;
   flex-direction: column;
@@ -253,7 +263,7 @@ p .fa-solid {
   display: none;
 }
 
-/* media query for small device  */
+/* media query for small device --------------------------------------------------------- */
 
 @media screen and (max-width: 992px) {
   main {
